@@ -1,3 +1,30 @@
 .navbar{
-    background-color: aqua;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-title{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+    margin-top: 0.4cm;
+}
+
+.nav-title-dropdown{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+}
+
+.logo{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
