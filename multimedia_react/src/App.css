@@ -1,3 +1,4 @@
+/* Navbar CSS */
 .navbar{
     background-color: black;
     display: flex;
@@ -16,6 +17,10 @@
     margin-top: 0.4cm;
 }
 
+.nav-title:hover{
+    color:rgb(231, 194, 6);
+}
+
 .nav-title-dropdown{
     color: aliceblue;
     font-size: large;
@@ -27,4 +32,16 @@
     font-size: large;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Landingpage CSS */
+.background{
+    background-color: black;;
+}
+
+.img12{
+    width: 30%;
+    
+    height: 50%;
+    
 }
