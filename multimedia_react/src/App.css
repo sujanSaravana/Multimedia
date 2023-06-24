@@ -12,13 +12,15 @@
 
 .nav-title{
     color: aliceblue;
-    font-size: large;
+    font-size: 16px;
     font-weight: 700;
-    margin-top: 0.4cm;
+    margin-top: 0.45cm;
+    margin-right: 1cm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .nav-title:hover{
-    color:rgb(231, 194, 6);
+    color:rgb(37, 131, 6);
 }
 
 .nav-title-dropdown{
@@ -29,7 +31,6 @@
 
 .logo{
     color: aliceblue;
-    font-size: large;
     font-weight: 700;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -39,9 +40,56 @@
     background-color: black;;
 }
 
-.img12{
-    width: 30%;
-    
-    height: 50%;
-    
+.background-img{
+    height: 15cm;
 }
+
+.content{
+    text-align: center;
+    color: aliceblue;
+}
+
+.title{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5cm;
+}
+
+.home-btn{
+    height: 1.5cm;
+    width: 5cm;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+    position: relative;
+    border: none;
+}
+
+.text-btn{
+    margin-top: 8cm;
+    margin-right: 1cm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.home-btn:hover{
+    border: 2px solid white;
+    box-shadow: 7px 5px 56px -14px #fff;
+}
+
+/* Angebote CSS */
+.carousel{
+    display: block;
+    width: 1250;
+    padding: 30;
+}
+
+
+
+
+
+
+

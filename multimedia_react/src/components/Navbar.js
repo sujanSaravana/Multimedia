@@ -21,12 +21,12 @@ function Bar() {
     <BrowserRouter>
       <Navbar className="navbar" expand="lg" expanded={expanded} bg="black" variant="dark">
         <Container>
-          <Navbar.Brand as={Link} to="/Landingpage" className="logo">
-            Lumio💡
-          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle}/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
+              <Nav.Link as={Link} to="/Landingpage">
+                <p className="nav-title">Home</p>
+              </Nav.Link>
               <Nav.Link as={Link} to="/Angebote">
                 <p className="nav-title">Produkte</p>
               </Nav.Link>

@@ -1,5 +1,5 @@
-import './pages.css';
 import React from "react";
+import MyParallax from "../components/Parallax";
 
 function kontakt() {
     return (
@@ -7,6 +7,7 @@ function kontakt() {
             <h1> 
             kontakt
             </h1>
+            <MyParallax />
         </div>
     );
 }
