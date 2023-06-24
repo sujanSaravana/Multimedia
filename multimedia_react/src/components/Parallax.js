@@ -1,10 +1,19 @@
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
+import bild3 from '../Images/3.png'
 
 const MyParallax = () => (
   <div>
-    <Parallax blur={10} bgImage={require('../Images/2.png')} bgImageAlt="the cat" strength={200}>
-      <div style={{ height: '300px' }} />
+    <Parallax
+      blur={0}
+      bgImage={require('../Images/7.jpg')}
+      bgImageAlt="the cat"
+      strength={400}
+    >
+      Put some text content here
+      or even an empty div with fixed dimensions
+      to have a height for the parallax.
+      <div style={{ height: '1200px' }} />
     </Parallax>
     </div>
     );

@@ -35,6 +35,11 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/*Parallax CSS*/
+.custom-bg{
+    height: 10cm;
+}
+
 /* Landingpage CSS */
 .background{
     background-color: black;;
@@ -81,11 +86,26 @@
 }
 
 /* Angebote CSS */
-.carousel{
-    display: block;
-    width: 1250;
-    padding: 30;
-}
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .img1,
+  .img2 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
 
 
 
