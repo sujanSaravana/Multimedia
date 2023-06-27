@@ -7872,6 +7872,11 @@
   "resolved" "https://registry.npmjs.org/react-refresh/-/react-refresh-0.11.0.tgz"
   "version" "0.11.0"
 
+"react-responsive-masonry@^2.1.7":
+  "integrity" "sha512-/jOqnTVNtO8zRJMTl6ZXBex7EFYEIFBLVlkIFjiCT7omfm0CgNF2z4ST8RIr0v2ut15NWAQs7Q3kJJPhMoe3Ew=="
+  "resolved" "https://registry.npmjs.org/react-responsive-masonry/-/react-responsive-masonry-2.1.7.tgz"
+  "version" "2.1.7"
+
 "react-router-dom@^6.13.0":
   "integrity" "sha512-6Nqoqd7fgwxxVGdbiMHTpDHCYPq62d7Wk1Of7B82vH7ZPwwsRaIa22zRZKPPg413R5REVNiyuQPKDG1bubcOFA=="
   "resolved" "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.13.0.tgz"

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import MyParallax from "../components/Parallax";
 import backgroundImg from '../Images/home-background.png';
+
 
 function Landingpage() {
   return (
@@ -14,7 +14,6 @@ function Landingpage() {
           <div className="content">
             <h1 className="title">Lumio💡</h1>
               <div className="text-btn">
-                <p>Erleuchte deine <br />Welt</p>
                 <Link to="/angebote">
                   <button className="home-btn">Jetzt Kaufen</button>
                 </Link>
@@ -22,7 +21,6 @@ function Landingpage() {
           </div>
         </div>
       </div>
-        <MyParallax />
         <div>
             <h1>klesj</h1>
         </div>
