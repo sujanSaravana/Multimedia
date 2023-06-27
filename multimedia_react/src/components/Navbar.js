@@ -28,16 +28,16 @@ function Bar() {
                 <p className="nav-title">Home</p>
               </Nav.Link>
               <Nav.Link as={Link} to="/Angebote">
-                <p className="nav-title">Produkte</p>
+                <p className="nav-title">Products</p>
               </Nav.Link>
               <Nav.Link as={Link} to="/Kontakt">
-                <p className="nav-title">Kontakt</p>
+                <p className="nav-title">Contact</p>
               </Nav.Link>
               <Nav.Link as={Link} to="/Uebermich">
-                <p className="nav-title">Über mich</p>
+                <p className="nav-title">About Us</p>
               </Nav.Link>
               <Nav.Link as={Link} to="/Impress" className="title-link">
-                <p className="nav-title">Impressum & Datenschutz</p>
+                <p className="nav-title">Imprint & Privacy Policy</p>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
