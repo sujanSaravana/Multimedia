@@ -6,9 +6,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import bild1 from '../Images/1.png';
 import bild4 from '../Images/4.png';
+import ProductGallery from '../components/Gallery';
 import {Image} from 'react-bootstrap'
 
-export default function App() {
+function Angebote() {
   return (
     <Container fluid className='background'>
       <h1 className='title'>Unsere Produkte</h1>
@@ -26,7 +27,11 @@ export default function App() {
           </Carousel.Item>
         </Carousel>
       </div>
+      <div className='gallery'>
+        <ProductGallery />
+      </div>
       
     </Container>
   );
 }
+export default Angebote;

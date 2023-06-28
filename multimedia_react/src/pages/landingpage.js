@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import backgroundImg from '../Images/home-background.png';
+import ImageCompare from "../components/ImageCompare";
 
 
 function Landingpage() {
@@ -20,7 +21,7 @@ function Landingpage() {
         </div>
       </div>
         <div>
-            <h1>klesj</h1>
+            <ImageCompare />
         </div>
     </Container>
   );
