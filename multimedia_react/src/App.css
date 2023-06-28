@@ -233,6 +233,17 @@ input:hover{
   }
 }
 
+/* Gallery CSS*/
+
+.galleryImage{
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+}
+
+.gallImage{
+    padding-bottom: 1cm;
+}
+
 
 
 
