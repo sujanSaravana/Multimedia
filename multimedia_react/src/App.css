@@ -244,6 +244,16 @@ input:hover{
     padding-bottom: 1cm;
 }
 
+/**/
+
+.upper-background{
+    background-color: #000000;
+}
+
+.lower-background{
+    background-color: #fff;
+}
+
 
 
 
