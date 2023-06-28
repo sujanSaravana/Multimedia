@@ -145,6 +145,46 @@ input:hover{
   background-position: center;
 }
 
+/* ImageCompare CSS*/
+
+.compare-background{
+    background-color: rgb(6, 12, 7);
+    
+}
+
+.image-compare-col{
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    
+}
+
+.image-compare-row{
+    padding: 2cm;
+}
+
+
+@media (max-width: 768px) {
+  .image-compare-col {
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+  }
+
+  .image-compare-row {
+    padding: 1cm;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-compare-col {
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+  }
+
+  .image-compare-row {
+    padding: 0.5cm;
+  }
+}
+
 
 
 
