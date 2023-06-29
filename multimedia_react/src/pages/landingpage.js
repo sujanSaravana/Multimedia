@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import backgroundImg from '../Images/home-background.png';
 import ImageCompare from "../components/ImageCompare";
-import Bar from "../components/Navbar";
+import Parallax from "../components/Parallax"
 
 
 function Landingpage() {
@@ -21,6 +21,7 @@ function Landingpage() {
           </div>
         </div>
       </div>
+      <Parallax />
         <div>
             <ImageCompare />
         </div>

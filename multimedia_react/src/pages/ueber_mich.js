@@ -9,7 +9,9 @@ function uebermich() {
                 Our Story 
             </h1>
             <Row className="upper-background">
-                <h1>jlwd</h1>
+               <p className="text">Welcome to our online lamp shop! We are passionate about lighting up your life with beautiful and
+        captivating lamps. Our journey began with a simple idea - to provide unique and stylish lighting solutions
+        that transform any space into a warm and inviting haven.</p>
             </Row>
             <Row className="lower-background">
                 <h1>jdf</h1>

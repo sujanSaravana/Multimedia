@@ -248,7 +248,7 @@ input:hover{
     padding-bottom: 1cm;
 }
 
-/**/
+/*ueber mich CSS*/
 
 .upper-background{
     background-color: #000000;
@@ -256,6 +256,11 @@ input:hover{
 
 .lower-background{
     background-color: #fff;
+}
+
+.text{
+    color: aliceblue;
+    text-align: center;
 }
 
 /*Product 1 CSS*/
