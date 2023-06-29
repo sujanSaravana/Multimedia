@@ -210,6 +210,10 @@ input:hover{
     padding: 2cm;
 }
 
+.mi122{
+    height: 10cm;
+}
+
 
 @media (max-width: 768px) {
   .image-compare-col {
@@ -252,6 +256,17 @@ input:hover{
 
 .lower-background{
     background-color: #fff;
+}
+
+/*Product 1 CSS*/
+
+.product-img{
+    max-width: 100%;
+    height: auto;
+    width: 350px; 
+    height: auto;
+    margin-left: 2cm;
+    margin-top: 1.5cm;
 }
 
 

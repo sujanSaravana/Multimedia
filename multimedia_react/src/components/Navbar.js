@@ -9,6 +9,7 @@ import '../App.css';
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Product1 from "../pages/Product1";
 
 function Bar() {
   const [expanded, setExpanded] = useState(false);
@@ -49,6 +50,7 @@ function Bar() {
         <Route path="/Uebermich" element={<Uebermich />} />
         <Route path="/Impress" element={<Impress />} />
         <Route path="/Kontakt" element={<Kontakt />} />
+        <Route path="/Product1" element={<Product1 />} />
       </Routes>
       <footer className="footer">
         <ul>

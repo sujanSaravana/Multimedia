@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import backgroundImg from '../Images/home-background.png';
 import ImageCompare from "../components/ImageCompare";
+import Bar from "../components/Navbar";
 
 
 function Landingpage() {
