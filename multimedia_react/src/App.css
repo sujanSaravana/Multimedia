@@ -271,7 +271,7 @@ input:hover{
     width: 350px; 
     height: auto;
     margin-left: 2cm;
-    margin-top: 1.5cm;
+    margin-top: 1cm;
 }
 
 .product-title{
@@ -301,6 +301,17 @@ input:hover{
 .info2{
     color: aliceblue;
     font-size: large;
+}
+
+/*Product 2 CSS*/
+
+.product-img2{
+    max-width: 100%;
+    height: auto;
+    width: 350px; 
+    height: auto;
+    margin-left: 2cm;
+    margin-top: 1cm;
 }
 
 

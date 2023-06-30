@@ -10,6 +10,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Product1 from "../pages/Product1";
+import Product2 from "../pages/Product2";
+import Product3 from "../pages/Product3";
 
 function Bar() {
   const [expanded, setExpanded] = useState(false);
@@ -51,6 +53,8 @@ function Bar() {
         <Route path="/Impress" element={<Impress />} />
         <Route path="/Kontakt" element={<Kontakt />} />
         <Route path="/Product1" element={<Product1 />} />
+        <Route path="/Product2" element={<Product2 />} />
+        <Route path="/Product3" element={<Product3 />} />
       </Routes>
       <footer className="footer">
         <ul>
