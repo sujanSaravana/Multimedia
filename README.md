@@ -26,7 +26,7 @@ Die Application sollte nun auf "http://localhost:3000" erreichbar sein.
 
 ### Navbar
 
-Dieses React-Komponenten enthält eine Navbar und ein Footer mit drei Links zu verschiedenen Seiten. Die Links sind mit React Router implementiert und ermöglichen eine nahtlose Navigation zwischen den Seiten.
+Dieses React-Komponenten enthält eine Navbar mit fünf Links zu verschiedenen Seiten. Die Links sind mit React Router implementiert und ermöglichen eine nahtlose Navigation zwischen den Seiten.
 
 
 ## Autor
