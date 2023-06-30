@@ -314,6 +314,26 @@ input:hover{
     margin-top: 1cm;
 }
 
+/*Impress CSS*/
+
+.update-date{
+    color: aliceblue;
+    text-align: center;
+}
+
+.privacy-text{
+    color: aliceblue;
+    text-align: center;
+    margin-right: 3cm;
+    margin-left: 3cm;
+    margin-bottom: -0.1cm;
+}
+
+.background-impress{
+    background-color: black;
+    height: 100vh;
+}
+
 
 
 
