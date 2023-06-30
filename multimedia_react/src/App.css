@@ -248,19 +248,43 @@ input:hover{
     padding-bottom: 1cm;
 }
 
-/*ueber mich CSS*/
+/*ueber mich CSS*/ 
 
 .upper-background{
     background-color: #000000;
 }
 
-.lower-background{
-    background-color: #fff;
-}
 
 .text{
     color: aliceblue;
+    margin-top: 1cm;
+    margin-left: cm;
+    margin-right: 3cm;
     text-align: center;
+}
+
+.lamp-image{
+    max-width: 100%;
+    height: auto;
+    width: 350px; 
+    height: auto;
+    margin-left: 2cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.about-title{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1.5cm;
+    margin-left: 3cm;
+    margin-top: 2cm;
+}
+
+.aboutBackground{
+    height: 100vh;
+    background-color: #000000;
 }
 
 /*Product 1 CSS*/
