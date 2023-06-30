@@ -7,11 +7,6 @@ Dies ist eine React-App, die den Benutzern ermöglicht, verschiedene Lampen zu e
 ## List of contents
 
 * [Loslegen](#loslegen)
-* [Verwendung](#verwendung)
-* [Home](#home)
-* [Schadensrechner](#schadensrechner)
-* [Hausratsrechner](#hausratsrechner)
-* [Komponenten](#komponenten)
 * [Autor](#Autor)
 
 ## Loslegen
