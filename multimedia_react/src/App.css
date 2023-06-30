@@ -274,6 +274,34 @@ input:hover{
     margin-top: 1.5cm;
 }
 
+.product-title{
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5cm;
+    margin-right: 4.5cm;
+}
+
+.product-description{
+    color: aliceblue;
+    margin-right: 2cm;
+}
+
+.price{
+    color: aliceblue;
+}
+
+.info{
+    color: aliceblue;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.info2{
+    color: aliceblue;
+    font-size: large;
+}
 
 
 
