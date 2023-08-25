@@ -50,7 +50,7 @@ function ProductGallery() {
             </Link>
           </Col>
           <Col xs={6} md={4}>
-            <Link to="/Landingpage">
+            <Link to="/Product1">
               <div className="galleryImage">
                 <Image fluid src={bild12} alt='Img 1' className='gallery-img'></Image>
               </div>

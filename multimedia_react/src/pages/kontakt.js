@@ -4,6 +4,10 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import kontaktBackground from '../Images/3.png'
+import Bar from "../components/Navbar";
+import Foot from "../components/Footer"
+
+
 
 
 function Kontakt() {
@@ -32,6 +36,7 @@ function Kontakt() {
 
   return (
     <Container fluid >
+      <Bar />
       <Row>
         <Col className="kontaktBackground" xs={12} md={6} style={{ backgroundImage: `url(${kontaktBackground})`,backgroundRepeat:"no-repeat" }}></Col>
         <Col className="p-0" xs={12} md={6} style={{ backgroundColor: 'black' }}>
@@ -48,6 +53,7 @@ function Kontakt() {
             </form>
         </Col>
       </Row>
+      <Foot />
     </Container>
   );
 }

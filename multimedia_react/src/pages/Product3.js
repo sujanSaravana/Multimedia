@@ -3,10 +3,15 @@ import '../App.css';
 import bild13 from '../Images/10.png';
 import Image from "react-bootstrap/Image";
 import { Row, Col, Container } from "react-bootstrap";
+import Bar from "../components/Navbar";
+import Foot from "../components/Footer"
+
+
 
 function Product1() {
   return (
     <Container fluid className="background">
+      <Bar />
       <Row>
         <Col>
         <div>
@@ -41,6 +46,7 @@ function Product1() {
         </div>
       </Col>
       </Row>
+      <Foot />
     </Container>
   )
 }

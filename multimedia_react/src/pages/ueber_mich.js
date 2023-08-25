@@ -1,10 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import bild2 from "../Images/7.jpg";
+import Bar from "../components/Navbar";
+import Foot from "../components/Footer"
+
+
 
 function Uebermich() {
   return (
     <Container fluid className="background">
+      <Bar />
       <div className="about-background">
         <Row className="upper-background">
           <Col>
@@ -18,6 +23,7 @@ function Uebermich() {
           </Col>
         </Row>
       </div>
+      <Foot />
     </Container>
   );
 }

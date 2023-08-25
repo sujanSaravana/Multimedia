@@ -2,16 +2,19 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import bild1 from '../Images/1.png';
 import bild4 from '../Images/4.png';
 import ProductGallery from '../components/Gallery';
 import {Image} from 'react-bootstrap'
+import Bar from "../components/Navbar";
+import Foot from "../components/Footer"
+
+
 
 function Angebote() {
   return (
     <Container fluid className='background'>
+      <Bar />
       <h1 className='title'>Unsere Produkte</h1>
       <div className='carousel'>
         <Carousel>
@@ -30,7 +33,7 @@ function Angebote() {
       <div className='gallery'>
         <ProductGallery />
       </div>
-      
+      <Foot />
     </Container>
   );
 }

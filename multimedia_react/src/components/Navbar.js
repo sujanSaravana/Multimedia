@@ -1,17 +1,9 @@
 import { Link, BrowserRouter, Route, Routes } from "react-router-dom";
 import React, { useState } from "react";
-import Impress from '../pages/impress';
-import Kontakt from '../pages/kontakt';
-import Landingpage from '../pages/landingpage';
-import Uebermich from '../pages/ueber_mich';
-import Angebote from '../pages/angebote';
 import '../App.css';
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Product1 from "../pages/Product1";
-import Product2 from "../pages/Product2";
-import Product3 from "../pages/Product3";
 
 function Bar() {
   const [expanded, setExpanded] = useState(false);
@@ -21,7 +13,7 @@ function Bar() {
   };
 
   return (
-    <BrowserRouter>
+    <div>
       <Navbar className="navbar" expand="lg" expanded={expanded} bg="black" variant="dark">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggle}/>
@@ -46,25 +38,7 @@ function Bar() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Routes>
-        <Route path="/Landingpage" element={<Landingpage />} />
-        <Route path="/Angebote" element={<Angebote />} />
-        <Route path="/Uebermich" element={<Uebermich />} />
-        <Route path="/Impress" element={<Impress />} />
-        <Route path="/Kontakt" element={<Kontakt />} />
-        <Route path="/Product1" element={<Product1 />} />
-        <Route path="/Product2" element={<Product2 />} />
-        <Route path="/Product3" element={<Product3 />} />
-      </Routes>
-      <footer className="footer">
-        <ul>
-            <li><Link to="/Landingpage" className="footer-item"><p>Home</p></Link></li>
-            <li><Link to="/Angebote" className="footer-item"><p>Products</p></Link></li>
-            <li ><Link to="/Kontakt" className="footer-item"><p>Contact</p></Link></li>
-        </ul>
-            <p className="copyright">© 2023 My Company. All rights reserved.</p>
-        </footer>
-    </BrowserRouter>
+        </div>
   );
 }
 
