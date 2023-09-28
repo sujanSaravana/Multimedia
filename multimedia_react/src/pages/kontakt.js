@@ -35,7 +35,7 @@ function Kontakt() {
   };
 
   return (
-    <Container fluid >
+    <Container className='background' fluid >
       <Bar />
       <Row>
         <Col className="kontaktBackground" xs={12} md={6} style={{ backgroundImage: `url(${kontaktBackground})`,backgroundRepeat:"no-repeat" }}></Col>
